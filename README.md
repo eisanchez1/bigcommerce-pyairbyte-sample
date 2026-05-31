@@ -22,35 +22,37 @@ This repository contains a working example of an ETL pipeline that extracts data
    cd bigcommerce-etl
 2. Create a virtual environment:
 
-bash
-python -m venv venv
-source venv/bin/activate
-Install dependencies:
+   ```bash
+   python -m venv venv
+   source venv/bin/activate
+3. Install dependencies:
 
-bash
-pip install -r requirements.txt
-Configure environment variables in .env (do not commit this file):
+   ```bash
+   pip install -r requirements.txt
+
+4. Configure environment variables in .env (do not commit this file):
 
 Create environment variables:
 
-BIGCOMMERCE_STORE_HASH=your_store_hash
-BIGCOMMERCE_ACCESS_TOKEN=your_access_token
-GOOGLE_CLIENT_ID=your_client_id
-GOOGLE_CLIENT_SECRET=your_client_secret
+      BIGCOMMERCE_STORE_HASH=your_store_hash
+      BIGCOMMERCE_ACCESS_TOKEN=your_access_token
+      GOOGLE_CLIENT_ID=your_client_id
+      GOOGLE_CLIENT_SECRET=your_client_secret
 
-Usage
+5. Usage
 Run the pipeline:
 
-bash
-python3 bigcommerce_to_googledrive.py
+   ```bash
+   python3 bigcommerce_to_googledrive.py
 
 CSV files will be generated locally and uploaded to Google Drive.
-Sample output:
 
-Code
-✅ Uploaded customers.csv to Google Drive (file ID: 1GwzR-KtFqLaDN_0fPJOpNnBvkpB5znmR)
-✅ Uploaded products.csv to Google Drive (file ID: 1QuwOmko0ylmHiSNPVsqGaRjyNiAz0nWv)
-✅ Uploaded orders.csv to Google Drive (file ID: 1EU40ut7UORXM6eAI2PB0tQd7-4TkXaEx)
+Sample output:
+   
+      ✅ Uploaded customers.csv to Google Drive (file ID: 1GwzR-KtFqLaDN_0fPJOpNnBvkpB5znmR)
+      ✅ Uploaded products.csv to Google Drive (file ID: 1QuwOmko0ylmHiSNPVsqGaRjyNiAz0nWv)
+      ✅ Uploaded orders.csv to Google Drive (file ID: 1EU40ut7UORXM6eAI2PB0tQd7-4TkXaEx)
+
 Notes
 BigCommerce API enforces rate limits. Use batching + pacing (time.sleep) to avoid hitting quotas.
 
