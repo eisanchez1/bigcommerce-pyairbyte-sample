@@ -1,0 +1,9 @@
+Metadata-Version: 2.4
+Name: airbyte-source-mybigcommerce
+Version: 0.1.0
+Summary: Custom BigCommerce source connector for PyAirbyte
+Author: Edwin
+Requires-Python: >=3.9
+Requires-Dist: requests>=2.34.2
+Requires-Dist: airbyte>=0.45.0
+Requires-Dist: airbyte-cdk>=7.19.2

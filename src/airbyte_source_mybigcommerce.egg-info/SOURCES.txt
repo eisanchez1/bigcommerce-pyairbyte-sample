@@ -1,0 +1,8 @@
+pyproject.toml
+src/airbyte_source_mybigcommerce/__init__.py
+src/airbyte_source_mybigcommerce/source.py
+src/airbyte_source_mybigcommerce.egg-info/PKG-INFO
+src/airbyte_source_mybigcommerce.egg-info/SOURCES.txt
+src/airbyte_source_mybigcommerce.egg-info/dependency_links.txt
+src/airbyte_source_mybigcommerce.egg-info/requires.txt
+src/airbyte_source_mybigcommerce.egg-info/top_level.txt

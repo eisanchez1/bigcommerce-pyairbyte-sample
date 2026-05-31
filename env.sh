@@ -1,0 +1,5 @@
+export BIGCOMMERCE_CLIENT_ID="krgejd6b51zlrn71ppauphtx516tfxb"
+export BIGCOMMERCE_ACCESS_TOKEN="kejj9lcr6bs90emjhzd8bbcylcp3vi1"
+export BIGCOMMERCE_STORE_HASH="vruswqw1od"
+export GOOGLE_DRIVE_FOLDER_ID="1dghX4f7rpvtB97IskKzRh8ngmpx8NQUl"
+

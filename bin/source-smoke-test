@@ -1,0 +1,6 @@
+#!/home/edwin/Source/python/airbyte_env/bin/python3
+import sys
+from airbyte.cli.smoke_test_source.run import run
+if __name__ == '__main__':
+    sys.argv[0] = sys.argv[0].removesuffix('.exe')
+    sys.exit(run())

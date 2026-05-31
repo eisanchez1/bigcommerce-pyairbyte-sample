@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=80.10.2", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "airbyte-source-mybigcommerce"
+version = "0.1.0"
+description = "Custom BigCommerce source connector for PyAirbyte"
+authors = [{ name = "Edwin" }]
+dependencies = [
+    "requests>=2.34.2",
+    "airbyte>=0.45.0",
+    "airbyte-cdk>=7.19.2"
+]
+requires-python = ">=3.9"
+
+[tool.setuptools.packages.find]
+where = ["src"]
