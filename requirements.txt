@@ -1,0 +1,9 @@
+aiofile==3.11.1
+airbyte==0.45.0
+airbyte-api==0.53.0
+airbyte-cdk==7.19.2
+requests
+google-api-python-client
+google-auth
+google-auth-oauthlib
+google-auth-httplib2

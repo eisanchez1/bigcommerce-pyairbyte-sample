@@ -3,3 +3,5 @@ env.sh
 venv/
 __pycache__/
 *.log
+credentials.json
+token.json

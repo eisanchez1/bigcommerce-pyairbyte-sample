@@ -22,7 +22,7 @@ class SourceBigCommerce(Source):
         }
         resp = requests.get(url, headers=headers)
         print("Status:", resp.status_code)
-        #print("Response text:", resp.text[:200])
+        
         return resp.status_code == 200
 
     def discover(self, config):

@@ -268,7 +268,7 @@ def main():
     upload_to_drive("customers.csv")
     upload_to_drive("products.csv")
     upload_to_drive("orders.csv")
-
+    #upload_to_drive("categories.csv")
 
 if __name__ == "__main__":
     main()
