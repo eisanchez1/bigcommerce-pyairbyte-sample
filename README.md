@@ -18,13 +18,14 @@ This repository contains a working example of an ETL pipeline that extracts data
 ## Setup
 1. Clone the repo:
    ```bash
+   mkdir bigcommerce-etl
+   cd bigcommerce-etl 
    git clone https://github.com/YOUR_USERNAME/bigcommerce-etl.git
-   cd bigcommerce-etl
 2. Create a virtual environment:
 
    ```bash
-   python -m venv venv
-   source venv/bin/activate
+   python -m venv bigcommerce-etl
+   source bigcommerce-etl/bin/activate
 3. Install dependencies:
 
    ```bash
